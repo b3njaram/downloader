@@ -18,4 +18,4 @@ COPY . .
 EXPOSE 8080
 ENV BASE_PATH=/downloader
 
-CMD ["python", "main.py"]
+CMD ["python", "spotify_to_navidrome.py"]
